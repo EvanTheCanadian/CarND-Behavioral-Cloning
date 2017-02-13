@@ -21,7 +21,7 @@ The goals / steps of this project are the following:
 [video1]: ./2017-02-12_18-01-42.mp4 "End Result"
 
 **End Result:
-![End Result](https://youtu.be/Gv5dJkqfeQ8)
+[End Result](https://youtu.be/Gv5dJkqfeQ8)
 
 
 ## Rubric Points  
