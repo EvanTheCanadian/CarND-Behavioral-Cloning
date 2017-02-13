@@ -18,6 +18,10 @@ The goals / steps of this project are the following:
 [image3]: ./hist1.JPG "Flipped Image"
 [image4]: ./hist2.JPG "Flipped Image"
 [image5]: ./cropped.JPG "Flipped Image"
+[video1]: ./2017-02-12_18-01-42.mp4 "End Result"
+
+**End Result:
+![alt text][video1]
 
 
 ## Rubric Points  
