@@ -142,6 +142,8 @@ To capture good driving behavior, I first recorded two laps on track one using c
 
 ![center_example.jpg]
 
+I then recorded two laps driving in the opposite direction, as the course has much more left turns than right, and I wanted more right-hand turn data.
+
 I then recorded the vehicle recovering from the left side and right sides of the road back to center so that the vehicle would learn to correct itself if it should start to veer off center.
 
 I only grabbed a few data points from track two, as the track was radically different and I wanted to get back to testing my model. If I wanted to get my model working on the second track,
