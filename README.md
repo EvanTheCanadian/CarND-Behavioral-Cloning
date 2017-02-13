@@ -13,14 +13,12 @@ The goals / steps of this project are the following:
 
 
 [//]: # (Image References)
+[image1]: ./center_example.jpg "Center Example"
+[image2]: ./flipped_image.jpg "Flipped Image"
+[image3]: ./hist1.jpg "Flipped Image"
+[image4]: ./hist2.jpg "Flipped Image"
+[image5]: ./cropped.jpg "Flipped Image"
 
-[image1]: ./examples/placeholder.png "Model Visualization"
-[image2]: ./examples/placeholder.png "Grayscaling"
-[image3]: ./examples/placeholder_small.png "Recovery Image"
-[image4]: ./examples/placeholder_small.png "Recovery Image"
-[image5]: ./examples/placeholder_small.png "Recovery Image"
-[image6]: ./examples/placeholder_small.png "Normal Image"
-[image7]: ./examples/placeholder_small.png "Flipped Image"
 
 ## Rubric Points  
 
@@ -140,7 +138,7 @@ Non-trainable params: 0
 
 To capture good driving behavior, I first recorded two laps on track one using center lane driving. Here is an example image of center lane driving:
 
-![center_example.jpg]
+![alt text][image1]
 
 I then recorded two laps driving in the opposite direction, as the course has much more left turns than right, and I wanted more right-hand turn data.
 
@@ -152,11 +150,14 @@ I would definitely need more data points from track two as the turns are MUCH sh
 I knew I was going to have to augment the data set due to the disproportionately high number of images with 0 steering angle. I decided to flip the image and steering angle for all data points where the steering angle was
 greater than 0.2. I didn't want any additional data with low steering angles, as I already had plenty. I generated some histograms visible in Model.ipynb that demonstrate the distribution of data samples, both before and after
 generating the additional images.
+![alt text][image3]
+![alt text][image4]
 
-![flipped_image.jpg]
+![alt text][image2]
 
 I also cropped the images to only include the portion relevant to training. This meant eliminating the majority of the front of the car as well as the horizon. I did some testing as to what the perfect values were, and I 
 settled with 65:145 slice of the original 180 pixels.
+![alt text][image5]
 
 The same changes had to be made to drive.py, as the model was expecting this cropped image.
 
