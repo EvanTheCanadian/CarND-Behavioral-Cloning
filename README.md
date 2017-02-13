@@ -14,10 +14,10 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 [image1]: ./center_example.jpg "Center Example"
-[image2]: ./flipped_image.jpg "Flipped Image"
-[image3]: ./hist1.jpg "Flipped Image"
-[image4]: ./hist2.jpg "Flipped Image"
-[image5]: ./cropped.jpg "Flipped Image"
+[image2]: ./flipped_image.JPG "Flipped Image"
+[image3]: ./hist1.JPG "Flipped Image"
+[image4]: ./hist2.JPG "Flipped Image"
+[image5]: ./cropped.JPG "Flipped Image"
 
 
 ## Rubric Points  
